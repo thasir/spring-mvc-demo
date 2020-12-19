@@ -27,7 +27,14 @@
 	    Java<form:radiobutton path="favoriteLanguage" value="Java" />
 	    Python<form:radiobutton path="favoriteLanguage" value="Python" />
 	    C++<form:radiobutton path="favoriteLanguage" value="C++" />
-	    Javascript<form:radiobutton path="favoriteLanguage" value="Javascript" />
+	    Javascript<form:radiobutton path="favoriteLanguage"
+			value="Javascript" />
+		<br>
+		<br>
+	Operating Systems :
+		Windows <form:checkbox path="operatingSystems" value="Windows" />
+		Linux <form:checkbox path="operatingSystems" value="Linux" />	
+		Mac OS <form:checkbox path="operatingSystems" value="Mac OS" />
 		<br>
 		<br>
 		<input type="submit" value="Submit">
